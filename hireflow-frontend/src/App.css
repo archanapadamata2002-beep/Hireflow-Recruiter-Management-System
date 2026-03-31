@@ -1,0 +1,255 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6f8;
+}
+/* 🔥 LOGIN PAGE */
+.login-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+}
+
+/* 🔥 HIREFLOW TITLE */
+.brand {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+
+/* 🔥 LOGIN CARD */
+.login-card {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* INPUT */
+.input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* BUTTONS CONTAINER */
+.login-buttons {
+  margin-top: 10px;
+}
+
+/* BUTTON STYLES */
+.btn {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-blue {
+  background: #3b82f6;
+  color: white;
+}
+
+.btn-gray {
+  background: #e5e7eb;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #1e293b;
+  color: white;
+  padding: 15px 30px;
+}
+
+.page {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-blue { background: #3b82f6; color: white; }
+.btn-green { background: green; color: white; }
+.btn-red { background: red; color: white; }
+.btn-orange { background: orange; color: white; }
+
+.input {
+  padding: 8px;
+  margin: 5px;
+}
+
+.green { color: green; }
+.red { color: red; }
+.orange { color: orange; }
+
+.login {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+h2 {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.admin-container {
+  padding: 30px;
+  background: #f4f7fb;
+  min-height: 100vh;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 5px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.btn-delete {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background: #d9363e;
+}
+/* 🔥 STATS GRID */
+.stats-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+/* 🔥 STAT BOX */
+.stat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-left: 6px solid #3b82f6;
+  transition: 0.2s;
+}
+
+.stat-box:hover {
+  transform: translateY(-4px);
+}
+
+.stat-box h4 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.stat-box span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.stats-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.stat-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-left: 6px solid #3b82f6;
+}
+
+.stat-box span {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #22c55e;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.center {
+  text-align: center;
+  margin-top: 20px;
+}
